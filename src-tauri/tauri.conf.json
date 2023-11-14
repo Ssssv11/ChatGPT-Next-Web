@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "狗子GPT",
+    "productName": "狗子 GPT",
     "version": "2.9.11"
   },
   "tauri": {
@@ -68,7 +68,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.yida.chatgpt.next.web",
-      "longDescription": "狗子GPT is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
+      "longDescription": "狗子 GPT is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -77,7 +77,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "狗子GPT App",
+      "shortDescription": "狗子 GPT App",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -104,7 +104,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "狗子GPT",
+        "title": "狗子 GPT",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"
