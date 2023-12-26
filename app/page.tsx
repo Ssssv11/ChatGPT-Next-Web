@@ -12,7 +12,8 @@ export default async function App() {
   return (
     <>
       <Home />
-      {serverConfig?.isVercel && <Analytics /> && <SpeedInsights />}
+      {serverConfig?.isVercel && <Analytics />}
+      {serverConfig?.isVercel && <SpeedInsights />}
     </>
   );
 }
