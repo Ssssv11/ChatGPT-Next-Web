@@ -9,7 +9,7 @@
   },
   "package": {
     "productName": "Timemas Chat",
-    "version": "2.12.3"
+    "version": "2.12.4"
   },
   "tauri": {
     "allowlist": {
