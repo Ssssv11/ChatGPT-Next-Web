@@ -150,16 +150,6 @@ function TopBanner() {
         <BotIcon className={styles["top-banner-logo"]}></BotIcon>
         <span>
           {Locale.Auth.TopTips}
-          <a
-            href={SAAS_CHAT_URL}
-            rel="stylesheet"
-            onClick={() => {
-              trackSettingsPageGuideToCPaymentClick();
-            }}
-          >
-            {Locale.Settings.Access.SaasStart.ChatNow}
-            <Arrow style={{ marginLeft: "4px" }} />
-          </a>
         </span>
       </div>
       {(isHovered || isMobile) && (
